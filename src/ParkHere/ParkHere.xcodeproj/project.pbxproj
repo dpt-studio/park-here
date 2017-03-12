@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52D7B5741E73E70500436B64 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52D7B5731E73E70500436B64 /* GoogleService-Info.plist */; };
+		8624AC6D1E71BF8900B92710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8624AC6C1E71BF8900B92710 /* AppDelegate.swift */; };
+		8624AC6F1E71BF8900B92710 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8624AC6E1E71BF8900B92710 /* ViewController.swift */; };
+		8624AC721E71BF8900B92710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8624AC701E71BF8900B92710 /* Main.storyboard */; };
+		8624AC741E71BF8900B92710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8624AC731E71BF8900B92710 /* Assets.xcassets */; };
+		8624AC771E71BF8900B92710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8624AC751E71BF8900B92710 /* LaunchScreen.storyboard */; };
+		8685FA071E73019A00993E6D /* ImageUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8685FA061E73019A00993E6D /* ImageUtil.swift */; };
+		8685FA091E73024300993E6D /* SetttingUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8685FA081E73024300993E6D /* SetttingUtil.swift */; };
+		86C9212F1E73F8DD00221679 /* AppConstanst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C9212E1E73F8DD00221679 /* AppConstanst.swift */; };
+		C73AAE2C38AADF0C06C0197D /* Pods_ParkHere.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA39E092F6BEA3FECD80F11E /* Pods_ParkHere.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52D7B5731E73E70500436B64 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		610D6FF33A26892FD4B380EE /* Pods-ParkHere.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkHere.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParkHere/Pods-ParkHere.release.xcconfig"; sourceTree = "<group>"; };
+		8624AC691E71BF8900B92710 /* ParkHere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkHere.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8624AC6C1E71BF8900B92710 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8624AC6E1E71BF8900B92710 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8624AC711E71BF8900B92710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8624AC731E71BF8900B92710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8624AC761E71BF8900B92710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8624AC781E71BF8900B92710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8685FA061E73019A00993E6D /* ImageUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageUtil.swift; sourceTree = "<group>"; };
+		8685FA081E73024300993E6D /* SetttingUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetttingUtil.swift; sourceTree = "<group>"; };
+		86C9212E1E73F8DD00221679 /* AppConstanst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstanst.swift; sourceTree = "<group>"; };
+		BAC60DB708D51CDE4D17F2BC /* Pods-ParkHere.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkHere.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParkHere/Pods-ParkHere.debug.xcconfig"; sourceTree = "<group>"; };
+		FA39E092F6BEA3FECD80F11E /* Pods_ParkHere.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParkHere.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8624AC661E71BF8900B92710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73AAE2C38AADF0C06C0197D /* Pods_ParkHere.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33F7B2534A7AEA62584A3367 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA39E092F6BEA3FECD80F11E /* Pods_ParkHere.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8624AC601E71BF8900B92710 = {
+			isa = PBXGroup;
+			children = (
+				8624AC6B1E71BF8900B92710 /* ParkHere */,
+				8624AC6A1E71BF8900B92710 /* Products */,
+				E2E1A570E87AACD33E1F64B2 /* Pods */,
+				33F7B2534A7AEA62584A3367 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8624AC6A1E71BF8900B92710 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8624AC691E71BF8900B92710 /* ParkHere.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8624AC6B1E71BF8900B92710 /* ParkHere */ = {
+			isa = PBXGroup;
+			children = (
+				8685FA0B1E73035400993E6D /* View */,
+				8685FA0A1E73032F00993E6D /* Service */,
+				8685FA051E73018700993E6D /* Utils */,
+				8685FA041E73017100993E6D /* Controllers */,
+				8624AC6C1E71BF8900B92710 /* AppDelegate.swift */,
+				8624AC701E71BF8900B92710 /* Main.storyboard */,
+				8624AC731E71BF8900B92710 /* Assets.xcassets */,
+				8624AC751E71BF8900B92710 /* LaunchScreen.storyboard */,
+				8624AC781E71BF8900B92710 /* Info.plist */,
+				52D7B5731E73E70500436B64 /* GoogleService-Info.plist */,
+			);
+			path = ParkHere;
+			sourceTree = "<group>";
+		};
+		8685FA041E73017100993E6D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8624AC6E1E71BF8900B92710 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8685FA051E73018700993E6D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8685FA061E73019A00993E6D /* ImageUtil.swift */,
+				8685FA081E73024300993E6D /* SetttingUtil.swift */,
+				86C9212E1E73F8DD00221679 /* AppConstanst.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		8685FA0A1E73032F00993E6D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		8685FA0B1E73035400993E6D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E2E1A570E87AACD33E1F64B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAC60DB708D51CDE4D17F2BC /* Pods-ParkHere.debug.xcconfig */,
+				610D6FF33A26892FD4B380EE /* Pods-ParkHere.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8624AC681E71BF8900B92710 /* ParkHere */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8624AC7B1E71BF8900B92710 /* Build configuration list for PBXNativeTarget "ParkHere" */;
+			buildPhases = (
+				0935A9AF781F52DED1AED71A /* [CP] Check Pods Manifest.lock */,
+				8624AC651E71BF8900B92710 /* Sources */,
+				8624AC661E71BF8900B92710 /* Frameworks */,
+				8624AC671E71BF8900B92710 /* Resources */,
+				C0E1A32945430BD34EA0B96E /* [CP] Embed Pods Frameworks */,
+				B593F10E40F69F7C788AB5C8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParkHere;
+			productName = ParkHere;
+			productReference = 8624AC691E71BF8900B92710 /* ParkHere.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8624AC611E71BF8900B92710 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Nguyen Quang Ngoc Tan";
+				TargetAttributes = {
+					8624AC681E71BF8900B92710 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V7Z27TG6NM;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8624AC641E71BF8900B92710 /* Build configuration list for PBXProject "ParkHere" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8624AC601E71BF8900B92710;
+			productRefGroup = 8624AC6A1E71BF8900B92710 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8624AC681E71BF8900B92710 /* ParkHere */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8624AC671E71BF8900B92710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8624AC771E71BF8900B92710 /* LaunchScreen.storyboard in Resources */,
+				52D7B5741E73E70500436B64 /* GoogleService-Info.plist in Resources */,
+				8624AC741E71BF8900B92710 /* Assets.xcassets in Resources */,
+				8624AC721E71BF8900B92710 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0935A9AF781F52DED1AED71A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B593F10E40F69F7C788AB5C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParkHere/Pods-ParkHere-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0E1A32945430BD34EA0B96E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParkHere/Pods-ParkHere-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8624AC651E71BF8900B92710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C9212F1E73F8DD00221679 /* AppConstanst.swift in Sources */,
+				8685FA071E73019A00993E6D /* ImageUtil.swift in Sources */,
+				8685FA091E73024300993E6D /* SetttingUtil.swift in Sources */,
+				8624AC6F1E71BF8900B92710 /* ViewController.swift in Sources */,
+				8624AC6D1E71BF8900B92710 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8624AC701E71BF8900B92710 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8624AC711E71BF8900B92710 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8624AC751E71BF8900B92710 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8624AC761E71BF8900B92710 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8624AC791E71BF8900B92710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8624AC7A1E71BF8900B92710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8624AC7C1E71BF8900B92710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAC60DB708D51CDE4D17F2BC /* Pods-ParkHere.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V7Z27TG6NM;
+				INFOPLIST_FILE = ParkHere/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ParkHere;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8624AC7D1E71BF8900B92710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 610D6FF33A26892FD4B380EE /* Pods-ParkHere.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V7Z27TG6NM;
+				INFOPLIST_FILE = ParkHere/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ParkHere;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8624AC641E71BF8900B92710 /* Build configuration list for PBXProject "ParkHere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8624AC791E71BF8900B92710 /* Debug */,
+				8624AC7A1E71BF8900B92710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8624AC7B1E71BF8900B92710 /* Build configuration list for PBXNativeTarget "ParkHere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8624AC7C1E71BF8900B92710 /* Debug */,
+				8624AC7D1E71BF8900B92710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8624AC611E71BF8900B92710 /* Project object */;
+}
